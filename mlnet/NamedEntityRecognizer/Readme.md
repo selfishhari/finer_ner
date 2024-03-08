@@ -9,3 +9,5 @@ Then run:
 dotnet build
 dotnet run
 ```
+
+![image](https://github.com/selfishhari/finer_ner/assets/51013293/973183f2-a6e3-475a-a9c1-c6c0c58ec859)
