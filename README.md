@@ -16,5 +16,5 @@ https://huggingface.co/HariLuru/finer_distillbert_v2
 
 
 2. A C# program that runs on ML.net + ONNX runtime to read from a text file, and predict 5 XBRL tags
-  1. go to mlnet/NamedEntityRecognizer and follow the readme
+       go to mlnet/NamedEntityRecognizer and follow the readme
 
