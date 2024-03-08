@@ -1,6 +1,6 @@
 # finer_ner
 
-This repo has code to 
+This repo has code to 2 Parts (train model & run pipeline in C# using ML.Net)
 1. preproc finder139 dataset, and train a distill bert model on 4/5 top classes of it
   1. 02_data_prep.ipynb preps data, aligns mis match between bert wordpiece and provided tokens, subsamples data as well
   2. 03_train trains the trains a DistillBert model and pushes it to huggingface https://huggingface.co/HariLuru/finer_distillbert_v2. Also writes to ONNX
@@ -12,6 +12,8 @@ Try on hugging face:
 https://huggingface.co/HariLuru/finer_distillbert_v2
 
 ![image](https://github.com/selfishhari/finer_ner/assets/51013293/b98c7bde-bfba-4ec1-9d57-55dc0a7dcdc1)
+
+
 
 2. A C# program that runs on ML.net + ONNX runtime to read from a text file, and predict 5 XBRL tags
   1. go to mlnet/NamedEntityRecognizer and follow the readme
