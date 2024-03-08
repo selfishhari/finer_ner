@@ -5,5 +5,5 @@ https://drive.google.com/file/d/14hk6x766VE_Rgy8jqm75DytfxUhxnJ87/view?usp=shari
 
 Then run:
 
-dotnet build
-dotnet run
+[dotnet build
+dotnet run](url)
